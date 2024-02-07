@@ -1,28 +1,38 @@
-# React Example - Product Compare Page :tada: :fireworks:
+# create-svelte
 
-Product comparison page build using **React** + **Redux** + **Bootstrap** + **SASS**
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-![Screenshot](https://s8.postimg.cc/fdfsvumkl/Screen_Shot_2018-07-05_at_16.36.17.png)
+## Creating a project
 
-It's build on top of [`create-react-app`](http://www.google.lt)
+If you're seeing this, you've probably already done this step. Congrats!
 
-Usage
--
-Documentation how to *run*, *build* and *test* app
+```bash
+# create a new project in the current directory
+npm create svelte@latest
 
-> https://github.com/facebookincubator/create-react-app#npm-start-or-yarn-start
+# create a new project in my-app
+npm create svelte@latest my-app
+```
 
-Demo
--
-> http://react-compare-app.surge.sh
+## Developing
 
-Contributing
--
-Thank you for considering contributing!
-Please use GitHub issues and Pull Requests for Contributing.
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-License
--
-The MIT License (MIT). Please see License File for more information.
+```bash
+npm run dev
 
-[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/Rhymond/product-compare-react)
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
